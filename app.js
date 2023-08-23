@@ -77,7 +77,7 @@ function btnPress(){
 let allBtns = document.querySelectorAll(".btn");
 for(btn of allBtns){
     btn.addEventListener("click", btnPress);
-}
+};
 
 function reset(){
     started = false;
